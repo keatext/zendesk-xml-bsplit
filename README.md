@@ -19,6 +19,6 @@ Example usage
     $ zendesk-xml-bsplit --outfile=tickets_{}.xml --limit=1e+8 tickets.xml
     $ zendesk-xml-bsplit --outfile=tickets_{}.xml --limit=100MB tickets.xml
 
-This example splits `tickets.csv` into files that don't exceed 1e+8 bytes or 100 megabytes.
+This example splits `tickets.xml` into files that don't exceed 1e+8 bytes or 100 megabytes.
 These files are named by inserting a number in the replacement field in curly braces (`{}`).
 The two examples are equivalent.
